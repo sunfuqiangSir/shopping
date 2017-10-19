@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Content/css/ionic.css">
+    <link rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="myApp">
+    <div class="box">
+        <div class="bar bar-header bar-energized">
+            <h1 class="title">购物车(<span>0</span>)</h1>
+        </div>
+
+        <div class="content has-header">
+            <ul class="list ion-scroll">
+                <ui-view></ui-view>
+            </ul>
+        </div>
+
+        <div class="tabs badge-light">
+            <a class="tab-item">
+                <span>首页</span>
+            </a>
+            <a class="tab-item">
+                <span>微淘</span>
+            </a>
+            <a class="tab-item">
+                <span>消息</span>
+            </a>
+            <a class="tab-item">
+                <span class="energized">购物车</span>
+            </a>
+            <a class="tab-item">
+                <span>我的淘宝</span>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript" src="Script/angular/angular.js"></script>
+    <script type="text/javascript" src="Script/angular/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="Script/ionic.bundle.js"></script>
+
+    <script type="text/javascript" src="App/app.js"></script>
+
+    <script type="text/javascript" src="App/controller/shoppingController.js"></script>
+
+    <script type="text/javascript" src="App/directive/shopDirective.js"></script>
+
+    <script type="text/javascript" src="App/service/shopService.js"></script>
+
+</body>
+</html>

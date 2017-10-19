@@ -1,0 +1,20 @@
+[
+  {
+    "name":"自行车",
+    "num":"1",
+    "price":"1500",
+    "img":"Content/images/img_02.png"
+  },
+  {
+    "name":"电动车",
+    "num":"1",
+    "price":"3500",
+    "img":"Content/images/img_01.png"
+  },
+  {
+    "name":"汽车（模型）",
+    "num":"1",
+    "price":"300",
+    "img":"Content/images/img_02.png"
+  }
+]

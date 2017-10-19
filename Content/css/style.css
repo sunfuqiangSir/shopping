@@ -1,0 +1,44 @@
+.item dl dd{
+    float: left;
+    width: 30%;
+}
+.item dl dd img{
+    width: 100%;
+    height: auto;
+}
+.item dl dt{
+    float: left;
+}
+.bar-footer{
+    margin-bottom: 40px;
+}
+.checkbox{
+    width: 40px;
+}
+.list{
+    overflow-y: scroll;
+}
+.btn{
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.btn span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    background: #ccc;
+}
+dl dt {
+
+}
+.btn b{
+    float: left;
+    display: block;
+    width:10px;
+    line-height: 30px;
+}

@@ -1,0 +1,14 @@
+<li class="item item-checkbox" ng-repeat="obj in objs">
+    <label class="checkbox">
+        <input type="checkbox" checked="">
+    </label>
+    <dl>
+        <dd><img ng-src="{{obj.img}}" alt=""></dd>
+        <dt><b>{{obj.name}}</b><br><i>￥{{obj.price}}</i></dt>
+    </dl>
+    <div class="btn">
+        <span class="last">-</span>
+        <b class="num">1</b>
+        <span class="next">+</span>
+    </div>
+</li>
